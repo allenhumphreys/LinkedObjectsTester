@@ -742,6 +742,17 @@
                                     <action selector="modifyObject:" target="XfG-lQ-9wD" id="QUu-bk-bFf"/>
                                 </connections>
                             </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="49z-xW-6fO">
+                                <rect key="frame" x="352" y="212" width="114" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Open Realm" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="lTy-6Q-GL2">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="openRealm:" target="XfG-lQ-9wD" id="5EU-9d-nZY"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                 </viewController>
