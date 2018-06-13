@@ -1,0 +1,6 @@
+framework module Pods_macLinkedObjectsTester {
+  umbrella header "Pods-macLinkedObjectsTester-umbrella.h"
+
+  export *
+  module * { export * }
+}
